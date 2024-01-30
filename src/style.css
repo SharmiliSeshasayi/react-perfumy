@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    background-color: black;
+    color:white;
+    padding:20px;
+    
+}
+h1,ul,li{
+    display:inline-block;
+}
+ul{
+    margin-left:70%;
+    color:gray;
+}
+h1,ul,li :hover{
+    cursor: pointer;
+}
+#Search{
+    width:70%;
+    padding:10px;
+ margin-left:15%;
+ margin-top:30px;
+ margin-right:13%;
+
+}
+.Main{
+   margin-left:22%;
+   margin-top:2%;
+
+}
+.Main__Container{
+    width:250px;
+    height:370px;
+    border:3px solid black;
+    display: inline-block;
+    margin-left:10px;
+    margin-top:10px;
+}
+.Main__Container-img{
+    width:250px;
+    height:300px;
+}
+.Main__Container-para{
+ padding:10px;
+}
+.Aboutus-h1{
+    padding-top:23px;
+    margin-left:45%;
+    margin-top:10px;
+}
+.Aboutus-p{
+    margin-left:10px;
+    margin-right:10px;
+    padding:10px;
+}
+.Contact{
+    background-color: black;
+}
+.Contact__section1{
+    color: white;
+    padding:10px;
+    padding-top:30px;
+    margin:10px;
+    margin-left:45%;
+}
+.Contact__section2{
+    color:grey;
+    padding:10px;
+    padding-top:30px;
+    margin:10px;
+}
+.Main__Container:hover{
+  transform: scaleY(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
